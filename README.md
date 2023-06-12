@@ -4,7 +4,9 @@ Refer https://github.com/cvg/Hierarchical-Localization
 
 ## Notebooks
 
-- HLOC_KOE - Localization KoE environment using indoor (InLoc) datasets. Using SuperPoint and SuperGlue. [Open in Colab](https://colab.research.google.com/github/KOE-Wayfind/HLOC/blob/main/HLOC_KOE.ipynb)
+- **`HLOC_KOE.ipynb`** - Localization KoE environment using indoor (InLoc) datasets. Using SuperPoint and SuperGlue. [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KOE-Wayfind/HLOC/blob/main/HLOC_KOE.ipynb)
+- **`HLOC_KOE_codespace.ipynb`** - Same as above, but it is runnable on GitHub codespace. To get started, read the section below. [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/KOE-Wayfind/HLOC)
+- **`HLOC_KOE_DATA.ipynb`** - Slightly modified code than above to enable matrix testing. [![badge](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KOE-Wayfind/HLOC/blob/main/HLOC_KOE_DATA.ipynb)
 
 ## Get started
 
@@ -27,5 +29,3 @@ And add the code block with contents
 ```bash
 !jupyter nbextension enable --py widgetsnbextension
 ```
-
-
