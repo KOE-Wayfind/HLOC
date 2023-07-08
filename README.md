@@ -1,6 +1,6 @@
-# HLOC - Hierarchical Localization
+# HLOC - Hierarchical Localization Script
 
-Refer https://github.com/cvg/Hierarchical-Localization
+The scripts is taken and modified from [Hierarchical Localization's Demo script](https://github.com/cvg/Hierarchical-Localization#quick-start-%EF%B8%8F-) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MrVs9b8aQYODtOGkoaGNF9Nji3sbCNMQ)
 
 ## Notebooks
 
@@ -24,8 +24,10 @@ sudo apt update && sudo apt install -y libsm6 libxext6 ffmpeg libfontconfig1 lib
 pip install ipywidgets widgetsnbextension pandas-profiling
 ```
 
-And add the code block with contents
+And add the code block with contents.
 
 ```bash
 !jupyter nbextension enable --py widgetsnbextension
 ```
+
+Then, you can run the notebook.
